@@ -1,0 +1,182 @@
+	body, input, select, textarea, button {
+  font: 14px 'Lato', Helvetica, arial, freesans, clean, sans-serif;
+  line-height: 1.4;
+}
+body {
+  margin:0 auto;
+  float:none;
+  background-color: #FFFFFF;
+}
+
+.navbar  {
+  background-color: rgba(0,0,0,0);
+  color:#FFFFFF;
+  z-index: 500;
+  border-radius: 0px;
+  border-color:rgba(0,0,0,0);
+  position:fixed;
+  width:100%;
+}
+
+.navbar-brand, .navbar-brand:visited, .navbar-brand:active {
+  font-size: 2.5em;
+  font-style: italic;
+  font-weight: 700;
+  /*color:#FFFFFF!important;*/
+  color:black!important;
+}
+.navbar-brand:hover {
+  color:#777!important;
+}
+.fullscreen-overlay textarea:focus, .fullscreen-overlay textarea:hover {
+  outline: none;
+  color: #333333;
+}
+
+
+#hero{
+  background-image: url('../img/landing.jpeg');
+  background-size: 100% auto;
+  background-repeat:no-repeat;
+}
+
+#hero *{
+  text-align: center;
+}
+#hero h1 {
+  font-weight:700;
+  font-style: italic;
+  color:black;
+  font-size: 3.75em;
+}
+.as-secondary-white{
+  color:#4D4D4D;
+}
+.navbar-text{
+  padding-right: 20px;
+}
+
+.as-button, .as-button:visited{
+  border-radius: 4px;
+  border-width: 2px;
+  font-size: 1.2em;
+  border-color: #FFFFFF;
+  color: #FFFFFF;
+  padding: 5px 8px;
+  border-style: solid;
+}
+.as-button-purple, .as-button-purple:visited {
+  font-size:1.6em;
+  color:#F1F1F1;
+  border-color:#6B00F6;
+  background-color: #6B00F6;
+  padding: 2px 27px;
+  margin:30px auto 58px
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.as-button:hover, .as-button:focus{
+  text-decoration: none;
+  border-color: #777;
+  color: #777;
+}
+.as-button-invert, .as-button-invert:visited{
+  border-color: #777;
+  color: #777;
+  border-radius:0;
+  padding:4px 8px; 
+  background-color: white;
+}
+
+.as-button-purple:hover{
+  color:white;
+}
+.as-h-question {
+  font-weight: 700;
+  font-style: italic;
+  text-align: center;
+}
+
+.as-features > div{
+  
+}
+
+.as-features h4 {
+  font-weight: 700;
+  font-style: italic;
+}
+.as-features p {
+  margin-left: 10px;
+}
+
+.as-footer {
+  font-size: 1.1em;
+  text-align: center;
+  margin-bottom: 2px;
+}
+#mail, #mce-EMAIL {
+  width:50%;
+  display: inline-block;
+  border:2px solid #777;
+  border-radius: 0;
+}
+.form-control{
+  display: inline-block;
+  border:2px solid #777;
+  border-radius: 0;
+}
+#as-learnmore{
+  position: fixed;
+  top: 0;
+  right:0;
+
+}
+
+
+.hero-text{
+  margin-top: 40px;
+}
+
+.hero-img{
+  margin: 0 auto;
+  width:75%;
+  height:auto;
+}
+
+#list-features > .row {
+  border-bottom:1px solid #eee;
+  border-top:1px solid #eee;
+}
+
+.top-nav-collapse{
+  background-color: rgba(255,255,255,0.9);
+    border-bottom:1px solid #eee;
+
+}
+
+@media( min-width: 1140px) {
+  #hero{
+    min-height: 500px;
+  }
+  #list-features{
+    max-width:75%;
+  }
+}
+
+@media (max-width: 770px) {
+  .navbar{
+    background-color: white;
+    z-index: 500;
+    height:40px;
+  }  
+
+  .hero-text{
+    font-size:0.75em;
+  }
+
+  .hero-subtext{
+    margin-top: 50px;
+  }
+
+}
