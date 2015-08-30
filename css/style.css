@@ -33,10 +33,10 @@ body {
   color: #333333;
 }
 
-
 #hero{
   background-image: url('../img/landing.jpeg');
-  background-size: 100% auto;
+  background-size: 150% auto;
+  /*min-height: 500*/
   background-repeat:no-repeat;
 }
 
@@ -94,7 +94,7 @@ body {
 }
 .as-h-question {
   font-weight: 700;
-  font-style: italic;
+  /*font-style: italic;*/
   text-align: center;
 }
 
@@ -154,10 +154,26 @@ body {
     border-bottom:1px solid #eee;
 
 }
+@media( min-width: 700px) {
+  #hero{
+    background-size: auto 700px;
+    background-position: 0 0;
+    min-height: 700px;
+  }
+}
+@media( min-width: 1140px) {
+  #hero{
+    min-height: 700px;
+  }
+  #list-features{
+    max-width:75%;
+  }
+}
 
 @media( min-width: 1140px) {
   #hero{
-    min-height: 500px;
+    background-size:100% auto;
+    min-height: 700px;
   }
   #list-features{
     max-width:75%;
@@ -172,6 +188,7 @@ body {
   }  
 
   .hero-text{
+    margin-top: 120px;
     font-size:0.75em;
   }
 
@@ -179,4 +196,25 @@ body {
     margin-top: 50px;
   }
 
+  #hero{
+    /**/
+  }
+
+
+ul.navbar-nav{
+  background-color:#FFFFFF;
+}
+
+
+
+}
+
+#meet-stressless{
+  font-style: none;
+  font-size: 3em;
+}
+
+p{
+  text-align: justify;
+  line-height: 1.3px;
 }
