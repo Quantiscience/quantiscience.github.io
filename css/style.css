@@ -1,4 +1,4 @@
-	body, input, select, textarea, button {
+  body, input, select, textarea, button {
   font: 14px 'Lato', Helvetica, arial, freesans, clean, sans-serif;
   line-height: 1.4;
 }
@@ -161,16 +161,9 @@ body {
     min-height: 700px;
   }
 }
-@media( min-width: 1140px) {
-  #hero{
-    min-height: 700px;
-  }
-  #list-features{
-    max-width:75%;
-  }
-}
 
-@media( min-width: 1140px) {
+
+@media( min-width: 1280px) {
   #hero{
     background-size:100% auto;
     min-height: 700px;
