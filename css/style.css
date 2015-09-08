@@ -211,3 +211,12 @@ p{
   text-align: justify;
   line-height: 1.3px;
 }
+
+.price-card {
+  display:inline-block;
+  padding:5px;
+  height:300px;
+  max-width:150px;
+  text-align: center;
+  vertical-align: top;
+}
